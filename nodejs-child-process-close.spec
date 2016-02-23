@@ -5,7 +5,7 @@
 
 Name:           %{?scl_prefix}nodejs-child-process-close
 Version:        0.1.1
-Release:        3.2%{?dist}
+Release:        5.2%{?dist}
 Summary:        Make child_process objects emit 'close' events
 BuildArch:      noarch
 ExclusiveArch: %{nodejs_arches} noarch
@@ -52,6 +52,12 @@ rm -rf %buildroot
 %doc README.md
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.1.1-5.2
+- rebuilt
+
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.1.1-4.2
+- rebuilt
+
 * Thu Nov 07 2013 Tomas Hrcka <thrcka@redhat.com> - 0.1.1-3.2
 - enable scl when running tests
 
